@@ -37,10 +37,7 @@ namespace Practise
             {
                 Console.ForegroundColor = ConsoleColor.Red;  //mehsulun vaxti kecende qirmizi rengde gorunecek
             }
-            else
-            {
-                Console.ForegroundColor = ConsoleColor.Green;
-            }
+          
             RegionInfo aze = new RegionInfo("az-AZ");
             Console.WriteLine($"Product id: {ID}");
             Console.WriteLine($"Product name: {Name}");
